@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(143, 143, 213);
+            font-size: 1.04rem;
+        }
+        main hr{
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid rgb(143, 143, 213);
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2rem;
+        }
+        .rightSection img{
+            width: 100%
+            
+        }
+        .purple{
+            color: rgb(181, 123, 236);
+        }
+        .text-gray{
+            color: rgb(177, 177, 177);
+        }
+        #element{
+            color: rgb(181, 123, 236);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "left">Aman's Portfolio</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+            <div class = "right"></div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Aman</span>
+                <div>
+                    and I am a Passionate.
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+<img src="bg.png" alt="Background Image" style="width: 100%; height: auto;">
+
+            </div>
+        </section>
+    <hr>
+        <section class="secondSection">
+            <span class="text-gray"> what I have done so far</span>
+            <h1>Work Experience</h1>
+                
+    <main>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+         <script>
+    var typed = new Typed('#element', {
+      strings: ['Software Developer', 'cybersecurity Enthusiast'],
+      typeSpeed: 50,
+    });
+  </script>
+    
+</body>
+</html>
